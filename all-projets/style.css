@@ -1,0 +1,84 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@media only screen and (max-width: 768px){
+  
+  .col-4 {width: 33.33%;}
+  button{
+    font-size: 10px;
+    margin: 10px;
+  }
+  
+}
+  
+body {
+  font-family: sans-serif;
+  background: lightblue;
+  color: black;
+  line-height: 1.5;
+  font-size: 0.875rem;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  margin: 15px;
+}
+h1{
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+}
+span{
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.container-1, .container-2 {
+  text-align: center;
+  margin: 20px;
+
+}
+.button-container{ 
+width: 33.33%;
+  justify-content: center;
+}
+.container-2 h2 {
+  background: rgb(49, 2, 2);
+  color: white;
+  padding: 1rem;
+  border-radius: 20px;
+  margin-bottom: 2.5rem;
+}
+
+
+.btn-hero, .btn {
+  text-transform: uppercase;
+  background: transparent;
+  display: inline-block;
+  font-weight: 700;
+  transition: all .5s;
+  border: 2px solid black;
+  cursor: pointer;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  /* font-size: 1rem; */
+  padding: 0.75rem 1.25rem;
+}
+.btn-hero:hover, .btn:hover {
+  background-color: blue;
+}
+
+
+
+
