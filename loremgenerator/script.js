@@ -78,9 +78,9 @@ btn1.addEventListener("click", () => {
     word = `${word} ${myWords[num]}`;
   }
   for (let i = 1; i <= paraNum; i++) {
-    word = word + word + "<br>";
+    word = word + word + "<br><br>";
   }
-  display.innerHTML = word;
+  display1.innerHTML = word;
 });
 
 // Words generator

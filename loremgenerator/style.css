@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    background-color: aquamarine;
+    text-align: center;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div{
+    margin: 20px;
+
+}
+
+label{
+font-size: 2rem;
+margin: 10px;
+}
+
+p{
+    border: rgb(36, 36, 1) solid 2px;
+    padding: 10px;
+    text-align: justify;
+    max-width: fit-content;
+    border-radius: 8px;
+    margin: 0 auto 0 auto;
+}
+input{
+    margin: 20px;
+    padding: 1rem;
+    border: orange solid 2px;
+    border-radius: 8px;
+    font-size: 20px;
+}
