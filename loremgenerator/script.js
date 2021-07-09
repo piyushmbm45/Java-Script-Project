@@ -66,33 +66,33 @@ const myWords = [
 ];
 
 // Paragraph generator
-const wordInput = document.querySelector("#num1");
-const btn = document.querySelector(".btn1");
-const display = document.querySelector(".para1");
+const wordInput1 = document.querySelector("#num1");
+const btn1 = document.querySelector(".btn1");
+const display1 = document.querySelector(".para1");
 
-btn.addEventListener('click',()=>{
-  
-})
-
-
-
-
-
-
-
-
-
+btn1.addEventListener("click", () => {
+  let paraNum = wordInput1.value;
+  var word = "Hi";
+  for (let i = 1; i < 51; i++) {
+    const num = Math.floor(Math.random() * 64);
+    word = `${word} ${myWords[num]}`;
+  }
+  for (let i = 1; i <= paraNum; i++) {
+    word = word + word + "<br>";
+  }
+  display.innerHTML = word;
+});
 
 // Words generator
 const wordInput = document.getElementById("num2");
 const btn = document.querySelector(".btn2");
 const display = document.querySelector(".para2");
 
-btn.addEventListener('click', () => {
+btn.addEventListener("click", () => {
   var word = "Hi";
   let numWord = wordInput.value;
   for (let i = 1; i < numWord; i++) {
-    const num = Math.floor(Math.random() * 30);
+    const num = Math.floor(Math.random() * 64);
     word = `${word} ${myWords[num]}`;
   }
   display.innerHTML = word;

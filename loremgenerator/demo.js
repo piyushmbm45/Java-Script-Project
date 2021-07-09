@@ -67,10 +67,17 @@ const myWords = [
   
   console.log(myWords[2]);
   let word = '';
-  let numWord = 5
-      for (let i = 1; i <= numWord; i++) {
-          const num = Math.floor(Math.random() * 30);
-          word = `${word} ${myWords[num]}`;
-        }
+//   let numWord = 5
+//       for (let i = 1; i <= numWord; i++) {
+//           const num = Math.floor(Math.random() * 30);
+//           word = `${word} ${myWords[num]}`;
+//         }
 
-        console.log(word);
+
+
+
+        for (let i = 1; i < 51; i++) {
+            const num = Math.floor(Math.random() * 64);
+            word = `${word} ${myWords[num]}`;
+          }
+          console.log(word);
