@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  background-color: aquamarine;
+  text-align: center;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+}
+.content{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+ }
+
+ p{
+     color: rgb(243, 34, 34);
+     font-weight: 600;
+ }
