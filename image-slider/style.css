@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  background-color: hsl(200, 90%, 80%);
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.container {
+  display: grid;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.image {
+  align-items: center;
+}
+#img {
+  border: solid 1px hsl(200, 70%, 20%);
+  border-radius: 20px;
+  transition: transform 1s ease-in-out;
+}
+button {
+  padding: 10px;
+  margin: 20px;
+  text-decoration: none;
+  font-weight: 400;
+  border-radius: 50px;
+  border: solid 2px hsl(200, 70%, 20%);
+}
